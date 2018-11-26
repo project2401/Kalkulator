@@ -1,0 +1,27 @@
+.wrapper {
+  width: 100px;
+  height: 300px;
+}
+.wrapper .input {
+  box-sizing: border-box;
+}
+.wrapper .input .result {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid;
+}
+.wrapper .input .inputText {
+  width: 100%;
+  box-sizing: border-box;
+}
+.wrapper .numbersAndOperations {
+  display: flex;
+}
+.wrapper .numbersAndOperations .numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper .operations {
+  display: flex;
+  flex-direction: column;
+}
